@@ -1,0 +1,235 @@
+/* estilo general */
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+ 
+ }
+ 
+ 
+ header {
+  
+    min-height: 6vh;
+    background-color: #C6ACF8;
+   
+ }
+ header div {
+    background-color: #C6ACF8;
+ }
+ 
+ 
+ /* header*/
+ .contenedor-logo {
+    background-color: #C6ACF8;
+ }
+ .contenedor-editar {
+    align-items: flex-end;
+    
+ }
+ .contenedor-editar a, i {
+    background-color: #C6ACF8;
+ }
+ .editar{
+    height: 2.5rem;
+    margin-left: 70%;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+ }
+ .b-editar {
+    list-style: none;
+    text-decoration: none;
+ }
+ 
+ /* navegación */
+ nav {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+ }
+ .opciones{
+    background-color: black;
+ }
+ .logo {
+    height: 2rem;
+    
+ }
+ #navegacion {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   
+   
+ }
+ #navegacion li {
+    margin: 1.3rem;
+    float: left;
+    font-size: 1.2rem;
+ }
+ #navegacion li:hover {
+    color: blueviolet;
+ }
+ 
+ /* parte central */
+ .contenedor-principal {
+    background-color: black;
+ }
+ /* lado izquierdo */
+ .contacto {
+    list-style: none;
+ }
+ .left {
+    background-color: black;
+ }
+ 
+ .left-1 {
+  background-color: black;
+ }
+ .left-2 {
+ background-color: black;
+ 
+ }
+ .foto-perfil {
+    height: 25rem;
+    border-radius: 50%;
+    margin-left: 45%;
+ }
+ .left-3 {
+  background-color: black;
+ }
+ 
+ /* lado derecho */
+ img {
+    height: 15rem;
+ }
+ .right {
+    background-color: black;
+ }
+ .right h1 {
+    font-size: 3.8rem;
+ }
+ .right h2 {
+    font-size: 3.1rem;
+ }
+ .right h3 {
+    font-size: 2.5rem;
+ }
+ .right-1 {
+    background-color: black;
+ }
+ .right-1 h3 {
+    color: #C5F0FC;
+ }
+ .right-2 {
+   background-color: black;
+ }
+ .right-2 h1 strong {
+    color: #C5F0FC;
+ }
+ .right-2 h2 {
+    color: #C6ACF8;
+ }
+ 
+ .junior button {
+    font-size: 2rem;
+ }
+ .right-3 {
+    background-color: black;
+ }
+ .enviar {
+   font-size: 15px;
+   font-family: ;
+   background-color: rgb(197, 240, 252);
+   color: black;
+   letter-spacing: 0.03em;
+   cursor: pointer;
+   border-width: initial;
+   border-style: none;
+   border-color: initial;
+   border-image: initial;
+   margin-left: 5%;
+   text-decoration: none;
+   padding: 0.5rem 1rem;
+   border-radius: 5em;
+ }
+ .drive {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(197, 240, 252);
+ }
+ 
+ .junior {
+    text-decoration: none;
+    
+ }
+ .jun {
+    color: #FFBD59;
+ }
+
+
+ /* estilo de botones íconos de redes */
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.redes a {
+   text-decoration: none;
+}
+.redes ul {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   padding: 0;
+}
+.redes ul div {
+   width: 40px;
+   height: 5px;
+   background-color: black;
+   margin: auto;
+}
+
+.redes ul li {
+   
+   list-style: none;
+   width: 70px;
+   height: 70px;
+   margin: 0 0.2px;
+}
+
+.redes ul li span {
+   border-radius: 50%;
+   width: 100%;
+   display: flex !important;
+   background: black;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-size: 55px !important;
+   transition: 1.5s ease-out;
+}
+
+.redes ul li:hover span{
+   transition: .1s;
+}
+
+.redes ul li:nth-child(1):hover span {
+   color: #210b74 !important;
+   font-size: 65px !important;
+}
+.redes ul li:nth-child(2):hover span {
+   color: #17a122 !important;
+   font-size: 65px !important;
+}
+.redes ul li:nth-child(3):hover span {
+   color:  #8a146c !important;
+   font-size: 65px !important;
+}
+.redes ul li:nth-child(4):hover span {
+   color: #241896 !important;
+   font-size: 65px !important;
+}
+
+.contenedor_contacto ul{
+   margin-left: 30%;
+   margin-top: 10%;
+   
+}

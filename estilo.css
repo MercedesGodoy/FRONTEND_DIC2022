@@ -1,0 +1,195 @@
+/* estilo general */
+* {
+   margin: 0;
+   padding: 0;
+   color: white;
+   background-color: black;
+
+}
+
+
+header {
+ 
+   min-height: 6vh;
+   background-color: #C6ACF8;
+  
+}
+header div {
+   background-color: #C6ACF8;
+}
+
+
+/* header*/
+.contenedor-logo {
+   background-color: #C6ACF8;
+}
+.contenedor-editar {
+   align-items: flex-end;
+   
+}
+.contenedor-editar a, i {
+   background-color: #C6ACF8;
+}
+.editar{
+   height: 2.5rem;
+   margin-left: 70%;
+   color: rgb(0, 0, 0);
+   font-size: 1.5rem;
+}
+.b-editar {
+   list-style: none;
+   text-decoration: none;
+}
+
+/* navegación */
+
+nav {
+   
+}
+.opciones{
+   background-color: black;
+}
+.logo {
+   height: 2rem;
+   border-radius: 10%;
+   
+}
+#navegacion {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+  
+  
+}
+#navegacion li {
+   margin: 0.2rem;
+   float: left;
+   font-size: 1.2rem;
+}
+
+.btn-nav {
+   
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: black;
+   color: white;
+   letter-spacing: 0.03em;
+   cursor: pointer;
+   border-width: initial;
+   border-style: none;
+   border-color: initial;
+   border-image: initial;
+   margin-left: ;
+   text-decoration: none;
+   padding: 0.5rem 1rem;
+   border-radius: 5em;
+}
+
+
+
+.btn-nav:hover .opcion{
+   color: #C6ACF8;
+}
+
+
+
+/* parte central */
+.contenedor-principal {
+   background-color: black;
+}
+/* lado izquierdo */
+.left {
+   background-color: black;
+}
+
+.left-1 {
+ background-color: black;
+}
+.left-2 {
+background-color: black;
+
+}
+/* .borde-foto {
+   height: 24rem;
+   width: 24rem;
+   border-radius: 50%;
+   align-items: center;
+   margin-left: 45%;
+} */
+.foto-perfil {
+   height: 23rem;
+   width: 23rem;
+   border-radius: 50%;
+   box-sizing: border-box;
+   border: 5px solid #C5F0FC;
+  margin-left: 45%;
+}
+.left-3 {
+ background-color: black;
+}
+
+/* lado derecho */
+.right {
+   background-color: black;
+}
+.right h1 {
+   font-size: 3.8rem;
+}
+.right h2 {
+   font-size: 3.1rem;
+}
+.right h3 {
+   font-size: 2.5rem;
+}
+.right-1 {
+   background-color: black;
+}
+.right-1 h3 {
+   color: #C5F0FC;
+}
+.right-2 {
+  background-color: black;
+}
+.right-2 h1 strong {
+   color: #C5F0FC;
+}
+.right-2 h2 {
+   color: #C6ACF8;
+}
+
+.junior button {
+   font-size: 2rem;
+}
+.right-3 {
+   background-color: black;
+}
+.boton-cv {
+   font-size: 20px;
+   font-weight: 100
+   font-family: ;
+   background-color: rgb(197, 240, 252);
+   color: black;
+   letter-spacing: 0.03em;
+   cursor: pointer;
+   border-width: initial;
+   border-style: none;
+   border-color: initial;
+   border-image: initial;
+   margin-left: 5%;
+   text-decoration: none;
+   padding: 0.5rem 1rem;
+   border-radius: 5em;
+}
+
+.drive {
+   text-decoration: none;
+   color: black;
+   background-color: rgb(197, 240, 252);
+}
+
+.junior {
+   text-decoration: none;
+   
+}
+.jun {
+   color: #FFBD59;
+}

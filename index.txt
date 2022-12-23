@@ -1,0 +1,123 @@
+ <header>
+                <nav class="navbar navbar-expand-lg">
+                        <button>
+                            <img src="imagenes/logo.png" alt="logo Argentina Programa" class="logo">
+                        </button>
+                      <div class="collapse navbar-collapse" id="navbarText">
+                        <span class="navbar-text">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navegacion">
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#" id="sobre-mi">sobre mí</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">estudios</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">proyectos</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">habilidades</a>
+                                  </li>
+                                <li>
+                                    <i class="fa-solid fa-user-pen editar"></i>
+                                </li>
+                              </ul>
+                        </span>
+                    </div>
+                  </nav>
+            </header>
+                        <!--PARTE CENTRAL-->
+            <div class="central">
+                            <!--LADO IZQUIERDO-->
+                <div class="col-3 left">
+                    <div></div>
+                                    <!--FOTO DE PERFIL-->
+                    <div>
+                        <img class="foto-perfil" src="imagenes/foto.jpg" alt="">
+                    </div>
+                    <div></div>
+                </div>
+                            <!--LADO DERECHO-->
+                <div class="col-3 right">
+                    <!--HOLA-->
+                    <div>
+                        <h3></h3>
+                    </div>
+                    <!--SOY MERCEDES-->
+                    <div>
+                        <h2></h2>
+                    </div>
+                    <!--FULL STACK WEB DEVELOPER JUNIOR-->
+                    <div>
+                        <h1></h1>
+                        <div></div>
+                    </div>
+                    <!--CONTÁCTAME-->
+                    <div>
+                        <div>
+                            <button class="contacto">contáctame</button>
+                        </div>
+                        <div></div>
+                    </div>
+                    <!--REDES-->
+                    <div>
+                        <ul class="redes">
+                            <li>
+                                <a href="https://www.facebook.com/mercedes.godoyrojas">
+                                    <span class="fa fa-github"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-whatsapp"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/mercedes-godoyrojas/">
+                                    <span class="fa fa-linkedin"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+                        <!--FOOTER-->
+            <footer>
+                <!--2022-->
+                <div class="col-2">
+                    <h6>2022</h6>
+                </div>
+                <div class="col-6"></div>
+                <!--HECHO CON <3-->
+                <div class="col-3">
+                    <h6>hecho con amor, por Mercedes Godoy</h6>
+                </div>
+            </footer>
+
+
+
+código probado
+
+Llamar          
+<a href="tel:+5493517548633">llamar</a>
+
+Enviar email                   
+<a href="mailto:profesoragodoyrojas@gmail.com">enviar email</a>
+
+Scrollear hasta el elemento con el id
+<a class="nav-link" href="#sobre-mi" id="sobre-mi">Sobre mí</a>
+
+descargar documento
+<a href="pdf/CV.pdf" class="drive" download>Descargar CV</a>
+
+link a whatsapp
+https://wa.me/543517548633
